@@ -27,7 +27,7 @@
             <a class="main-nav__link main-nav__link--current-page" href="#!">Фото и видео</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link"href="form.html">Форма отзыва</a>
+            <a class="main-nav__link" href="form.html">Форма отзыва</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="https://htmlacademy.ru/">HTML ACADEMY</a>
@@ -38,44 +38,84 @@
   </header>
 
   <main class="page-main">
-    <div class="page-main__background-form"></div>
+    <div class="page-main__background-catalog"></div>
     <section class="preface preface-catalog">
-      <h1 class="preface-form__title">Оставьте свой отзыв</h1>
-      <p class="preface-form__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о
+      <h1 class="preface-catalog__title">Оставьте свой отзыв</h1>
+      <p class="preface-catalog__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о
         посещенных вами достопримечательностях</p>
     </section>
 
     <section class="gallery">
+      <h2 class="visually-hidden">Фотогалерея</h2>
       <ul class="gallery__list">
         <li class="gallery__item">
           <div class="gallery__image">
             <a href="#!" class="gallery__link">
-              <img src="" alt="" class="gallery__img">
+              <img class="gallery__img" src="img/gallery/photo-1-mobile.jpg" alt="Фото красивого заката на выезде из города">
             </a>
+          </div>
+          <div class="gallery__description">
+            <div class="gallery__block-desc">
+              <div class="title-photo">Неродные просторы</div>
+              <p class="autor-name">Автор фото: Борис</p>
+            </div>
+            <div class="likes-photo">1350</div>
           </div>
         </li>
         <li class="gallery__item">
           <div class="gallery__image">
             <a href="#!" class="gallery__link">
-              <img src="" alt="" class="gallery__img">
+              <img class="gallery__img" src="img/gallery/photo-2-mobile.jpg" alt="Цветущий кактус на фоне гор">
             </a>
+          </div>
+          <div class="gallery__description">
+            <div class="gallery__block-desc">
+              <div class="title-photo">Местная растительность</div>
+              <p class="autor-name">Автор фото: Сергей</p>
+            </div>
+            <div class="likes-photo">143</div>
           </div>
         </li>
         <li class="gallery__item">
           <div class="gallery__image">
             <a href="#!" class="gallery__link">
-              <img src="" alt="" class="gallery__img">
+              <img class="gallery__img" src="img/gallery/photo-3-mobile.jpg" alt="Горный серпантин">
             </a>
+          </div>
+          <div class="gallery__description">
+            <div class="gallery__block-desc">
+              <div class="title-photo">Дорога на север</div>
+              <p class="autor-name">Автор фото: Петр</p>
+            </div>
+            <div class="likes-photo">96</div>
           </div>
         </li>
         <li class="gallery__item">
           <div class="gallery__image">
             <a href="#!" class="gallery__link">
-              <img src="" alt="" class="gallery__img">
+              <img class="gallery__img" src="img/gallery/photo-4-mobile.jpg" alt="Вид на Мост Дьявола">
             </a>
+          </div>
+          <div class="gallery__description">
+            <div class="gallery__block-desc">
+              <div class="title-photo">Мост Дьявола</div>
+              <p class="autor-name">Автор фото: Антон</p>
+            </div>
+            <div class="likes-photo">254</div>
           </div>
         </li>
       </ul>
+    </section>
+
+    <section class="preface preface-catalog">
+      <h2 class="preface-catalog__title">Все еще сомневаетесь?</h2>
+      <p class="preface-catalog__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз</p>
+      <div class="preface-catalog__video-presentation">
+        <div class="preface-catalog__video"></div>
+        <div class="preface-catalog__video-panel">
+          <!-- тут кнопки или дивы, пока хз -->
+        </div>
+      </div>
     </section>
 
   </main>
