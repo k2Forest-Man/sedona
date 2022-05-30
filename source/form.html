@@ -80,7 +80,7 @@
           <legend class="feedback-form__title">Ваше общее впечатление:</legend>
           <ul class="form-impression__list">
             <li class="radio-field__item radio-field">
-              <input class="radio-field__input radio-field__input--current visually-hidden"
+              <input class="radio-field__input visually-hidden"
               type="radio" name="impression" value="positive" id="review-positive" checked>
               <label for="review-positive">Скорее положительное</label>
             </li>
@@ -101,17 +101,17 @@
           <legend class="feedback-form__title">Посещенные достопримечательности:</legend>
           <ul class="form-attractions__list">
             <li class="checkbox-field__item checkbox-field">
-              <input class="checkbox-field__input checkbox-field__input--current visually-hidden"
+              <input class="checkbox-field__input visually-hidden"
               type="checkbox" name="devil-bridge" value="devil-bridge" id="review-devil-bridge" checked>
               <label for="review-devil-bridge">Мост Дьявола</label>
             </li>
             <li class="checkbox-field__item checkbox-field">
-              <input class="checkbox-field__input checkbox-field__input--current visually-hidden"
+              <input class="checkbox-field__input visually-hidden"
               type="checkbox" name="mount-bell" value="mount-bell" id="review-mount-bell" checked>
               <label for="review-mount-bell">Гора Колокол</label>
             </li>
             <li class="checkbox-field__item checkbox-field">
-              <input class="checkbox-field__input checkbox-field__input--current visually-hidden"
+              <input class="checkbox-field__input visually-hidden"
               type="checkbox" name="slide-park" value="slide-park" id="review-slide-park" checked>
               <label for="review-slide-park">Слайд-парк</label>
             </li>
@@ -124,6 +124,7 @@
         </fieldset>
 
         <fieldset class="feedback-form__item written-review">
+          <legend class="visually-hidden">Текстовое поле для отзыва</legend>
           <label class="written-review__label" for="written-review-description">Опишите свои эмоции</label>
           <textarea class="feedback-form__input written-review__input" id="written-review-description" name="text-review" cols="15" rows="5"
             placeholder="Опишите подробно все свои восторги"></textarea>
