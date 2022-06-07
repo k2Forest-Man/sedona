@@ -111,9 +111,26 @@
       <h2 class="preface-catalog__title">Все еще сомневаетесь?</h2>
       <p class="preface-catalog__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз</p>
       <div class="preface-catalog__video-presentation">
-        <div class="preface-catalog__video"></div>
+        <div class="preface-catalog__video">
+          <img class="preface-catalog__video--background" src="img/gallery/video-mobile.jpg" alt="Макет видеопрезентации">
+          <input class="preface-catalog__range-control" type="range">
+          <!-- <div class="preface-catalog__range-control">
+            <div class="scale">
+              <div class="bar" style="width: 70%;margin-left: 0%"></div>
+            </div>
+            <div class="toggle toggle-control" tabindex="0" style="left: 5%"></div>
+          </div> -->
+        </div>
         <div class="preface-catalog__video-panel">
-          <!-- тут кнопки или дивы, пока хз -->
+          <div class="button-replay">
+            <img src="img/gallery/replay.svg" alt="">
+          </div>
+          <div class="button-subtitles">
+            <img src="img/gallery/subtitles.svg" alt="">
+          </div>
+          <div class="button-fullscreen">
+            <img src="img/gallery/fullscreen.svg" alt="">
+          </div>
         </div>
       </div>
     </section>
@@ -144,7 +161,7 @@
         </ul>
       </div>
       <div class="page-footer__item copyright">
-        <p class="copyright__item">Разработано</p>
+        <p class="copyright__text">Разработано</p>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
           <img src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Академии">
         </a>
