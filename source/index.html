@@ -19,7 +19,7 @@
         <span class="visually-hidden">Открыть меню</span>
       </button>
 
-      <div class="main-nav__wrapper">
+      <nav class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="main-nav__item">
             <a class="main-nav__link main-nav__link--current-page" href="#!">Главная</a>
@@ -34,7 +34,7 @@
             <a class="main-nav__link" href="https://htmlacademy.ru/">HTML ACADEMY</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </nav>
   </header>
 
@@ -44,12 +44,17 @@
     <section class="advantages">
       <h2 class="visually-hidden">Наши преимущества</h2>
       <p class="advantages__slogan">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</p>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <p class="advantages__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <ol class="advantages__list">
         <li class="advantages__item">
-          <h3 class="advantages__title">Настоящий городок</h3>
-          <p>— №1 —</p>
-          <p class="advantages__description">Седона не атракцион для туристов, там течет своя жизнь</p>
+          <div class="advantages__item--wrapper">
+            <h3 class="advantages__title">Настоящий городок</h3>
+            <p>— №1 —</p>
+            <p class="advantages__description">Седона не атракцион для туристов, там течет своя жизнь</p>
+          </div>
+          <div class="advantages__item--pic">
+            <span class="visually-hidden">Фото настоящего городка</span>
+          </div>
           <div class="city-advantages">
             <h4 class="visually-hidden">Преимущества городка</h4>
             <ul class="city-advantages__list">
@@ -69,9 +74,14 @@
           </div>
         </li>
         <li class="advantages__item">
-          <h3 class="advantages__title">Там есть мост дьявола</h3>
-          <p>— №2 —</p>
-          <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          <div class="advantages__item--wrapper-bridge">
+            <h3 class="advantages__title">Там есть мост дьявола</h3>
+            <p>— №2 —</p>
+            <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          </div>
+          <div class="advantages__item--pic-bridge">
+            <span class="visually-hidden">Фото моста дьявола</span>
+          </div>
         </li>
         <li class="advantages__item">
           <h3 class="advantages__title">Небольшая площадь</h3>
