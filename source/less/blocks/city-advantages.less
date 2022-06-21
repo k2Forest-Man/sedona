@@ -1,6 +1,65 @@
 .city-advantages__list {
+  color: @black;
+  background-color: @white;
   list-style: none;
-  padding: 0;
+  text-align: left;
+  font-size: 18px;
+  padding: 35px 0 35px 50px;
+}
+
+.city-advantages__item:not(:last-child) {
+  padding-bottom: 26px;
+}
+
+.city-advantages__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  padding-bottom: 21px;
+}
+
+.city-advantages__desc {
+  font-size: 14px;
+  line-height: 21px;
   margin: 0;
 }
 
+.city-advantages__item--housing,
+.city-advantages__item--souvenirs,
+.city-advantages__item--food {
+  position: relative;
+}
+
+.city-advantages__item--housing::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 39px;
+  height: 37px;
+  background-image: url("../../img/icon-house.svg");
+  top: -10px;
+  left: -48px;
+}
+
+.city-advantages__item--souvenirs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  background-image: url("../../img/icon-souvenirs.svg");
+  top: -10px;
+  left: -45px;
+}
+
+.city-advantages__item--food::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  background-image: url("../../img/icon-burger.svg");
+  top: -7px;
+  left: -52px;
+}
